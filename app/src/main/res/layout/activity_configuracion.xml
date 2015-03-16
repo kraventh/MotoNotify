@@ -1,0 +1,77 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="es.dlacalle.motonotify.ConfiguracionActivity">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_botonPermisos"
+        android:id="@+id/BotonPermisos"
+        android:layout_gravity="center_horizontal"
+        android:onClick="buttonClickedConfig"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_appDispLabel"
+        android:id="@+id/appDispLabel"
+        android:layout_below="@+id/BotonPermisos" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BotonSelectAll"
+        android:layout_below="@+id/appDispLabel"
+        android:id="@android:id/list"
+        />
+        <!-- android:id="@+id/app_list"-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_botonSelectAll"
+        android:id="@+id/BotonSelectAll"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/BotonConfirMarcados"
+        android:onClick="buttonClickedConfig" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_BotonUnselectAll"
+        android:id="@+id/BotonUnselectAll"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/BotonSelectAll"
+        android:layout_below="@android:id/list"
+        android:layout_alignParentRight="true"
+        android:onClick="buttonClickedConfig" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_BtnMarkedOk"
+        android:id="@+id/BotonConfirMarcados"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/BotonBorraTodo"
+        android:onClick="buttonClickedConfig" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_botonBorraTodo"
+        android:id="@+id/BotonBorraTodo"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="buttonClickedConfig" />
+
+</RelativeLayout>

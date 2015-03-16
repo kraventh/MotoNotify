@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MotoNotify</string>
+    <string name="title_section1">Principal</string>
+    <string name="title_section2">Configuración de Aplicación</string>
+    <string name="title_section3">Configuración Bluetooth</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_settings">Configuración</string>
+    <string name="text_servicioonoff">Servicio ON/OFF</string>
+    <string name="text_btlabel">Bluetooth: </string>
+    <string name="text_btLabelEstado">Desconectado</string>
+    <string name="text_imagenPreview">Preview</string>
+    <string name="text_appDispLabel">Aplicaciones Disponibles:</string>
+    <string name="text_botonSelectAll">Seleccionar Todo</string>
+    <string name="text_BotonUnselectAll">Deseleccionar Todo</string>
+    <string name="text_BtnMarkedOk">Confirmar Marcados</string>
+    <string name="text_botonBorraTodo">Borrar todos los registros</string>
+    <string name="text_botonBuscarDisp">Búsqueda</string>
+    <string name="text_BotonConecDisp">Conectar Disp. Seleccionado</string>
+    <string name="text_ImagenBTConnStatus">Estado Conexión Bluetooth</string>
+    <string name="text_botonListarDisp">Listar dispositivos</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+    <string name="title_paired_devices">Emparejados</string>
+    <string name="title_other_devices">Dispositivos disponibles</string>
+    <string name="button_scan">Buscar dispositivos</string>
+    <string name="none_paired">Ninguno</string>
+    <string name="scanning">Escaneando…</string>
+    <string name="select_device">Seleccione dispositivo</string>
+    <string name="none_found">Sin resultados</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_app_icon">Icono de aplicación</string>
+    <string name="action_permission">Permiso</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="text_botonPermisos">Permisos</string>
+    <string name="Linea">Label</string>
+    <string name="toast_unable_to_connect">Imposible conectar</string>
+    <string name="toast_connection_lost">Conexión perdida</string>
+
+</resources>
